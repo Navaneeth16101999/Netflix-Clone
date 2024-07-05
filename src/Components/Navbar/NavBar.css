@@ -7,6 +7,7 @@
     position: fixed;
     right: 20px;
     width: 30px;
+    cursor: pointer ;
 }
 .navbar{
     position: fixed;
@@ -18,3 +19,40 @@
     justify-content: space-between;
     background-color: #111;
 }
+.side-screen {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width: 200px;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  }
+  
+  .side-screen p {
+    margin: 0 0 10px;
+    font-weight: bold;
+  }
+  
+  .side-screen ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .side-screen ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #444;
+    cursor: pointer;
+  }
+  
+  .side-screen ul li:last-child {
+    border-bottom: none;
+  }
+  
+  .side-screen ul li:hover {
+    background-color: #555;
+  }
